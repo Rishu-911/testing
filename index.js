@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from Node.js backend on OCI instance!',
+    message: 'Hello from Node.js backend on OCI Server!',
     time: new Date().toISOString(),
     host: os.hostname()
   });
